@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.pagina{
+    background: rgb(51,40,241);
+    background: linear-gradient(135deg, rgba(51,40,241,1) 0%, rgba(96,96,240,1) 28%, rgba(0,212,255,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 1em #ffffff;
+    border-radius: 100%;
+    margin: 10px;
+}
+.titulo{
+    color: #ffffff;
+    font: italic bold 40px American Typewriter, serif;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    margin: 10px;
+}
+.texto{
+    color: #ffffff;
+    font: italic 20px American Typewriter, serif;
+    text-align: center;
+    max-width: 80%;
+    margin: 20px;
+}
+.links img{
+    margin: 10px;
+}
